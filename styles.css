@@ -1,0 +1,131 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/********************* Hero Section *********************/
+
+.hero {
+  background-image: url(images/norwichbanner.jpg);
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.visit-norwich,
+.culture {
+  background-color: #038c40;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.culture {
+  background-color: #fff200;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 70px;
+}
+
+/********************* Activity Section *********************/
+
+.active {
+  background-color: rgb(3, 140, 64);
+  text-align: center;
+  height: 450px;
+  max-width: 100%;
+  margin: 0px auto 0px auto;
+  padding-bottom: 100px;
+}
+
+.activity-wrapper {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.top-three {
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.night-life,
+.market,
+.forum {
+  margin: 20px;
+  padding-top: 25px;
+  background-color: rgb(255, 242, 0, 0.25);
+  border-radius: 10px;
+  width: 400px;
+}
+
+.section-head {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/********************* Guide Section *********************/
+
+.guide {
+  max-width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  background-color: #fff200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-card {
+  text-align: center;
+  width: 50%;
+  border: 2px solid rgb(3, 140, 64);
+  background-color: rgb(3, 140, 64);
+  border-radius: 10px;
+  display: flex;
+  width: 50%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.guide-pane {
+  display: flex;
+  margin: 30px;
+}
+
+.guide-info {
+  width: 50%;
+}
+
+.guide-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+.guide-info {
+}
